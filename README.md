@@ -33,7 +33,7 @@
     // 反例
     function hikeactivity() {}
     ```
-5. ```phalcon``` 需要**暴露接口**的类在遵循上方规则的同时需要添加Controller后缀,并且首字母和Controller首字母必须大写
+5. ```phalcon``` 需要**暴露接口**的类在遵循上方规则的同时需要添加Controller后缀,并且首字母和Controller首字母必须大写，其余字母不允许大写
     ``` php
     // 正例
     class HikeactivityController() {}
