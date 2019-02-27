@@ -15,7 +15,7 @@
     function getHikeName() {}
 
     // 反例
-    function getname() {}
+    function getn() {}
     ```
 3. ```phalcon``` 部分需要**暴露接口**的方法在遵循上方规则的同时需要添加Action后缀
     ``` php
