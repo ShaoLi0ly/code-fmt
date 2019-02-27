@@ -31,7 +31,7 @@
     class HikeActivity {}
 
     // 反例
-    function hikeactivity() {}
+    class hikeactivity {}
     ```
 5. ```phalcon``` 需要**暴露接口**的类在遵循上方规则的同时需要添加Controller后缀,并且首字母和Controller首字母必须大写，其余字母不允许大写
     ``` php
@@ -41,7 +41,7 @@
     // 反例
     class HikeActivityController() {}
     ```
-6. 常量命名全部大写，使用下划线```_```分隔，需要在后面添加注释，例如：
+6. 常量命名全部大写，使用下划线```_```分隔，必须在后面添加注释，例如：
     ``` php
     const BILL_ITEM_TYPE_INCOME = 1; // 收入
     ```
